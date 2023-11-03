@@ -4,7 +4,8 @@
   "description": "My individual project using git node and playwright",
   "main": "index.js",
   "scripts": {
-    "test": "npx playwright test"
+    "test": "npx playwright test",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
