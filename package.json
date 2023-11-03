@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/NJIT-WIS/midterm-portfolio-JJAMES24/issues"
   },
-  "homepage": "https://github.com/NJIT-WIS/midterm-portfolio-JJAMES24#readme"
+  "homepage": "https://github.com/NJIT-WIS/midterm-portfolio-JJAMES24#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.39.0",
+    "@types/node": "^20.8.10"
+  }
 }
