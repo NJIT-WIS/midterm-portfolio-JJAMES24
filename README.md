@@ -9,3 +9,10 @@
    1. Run npm init playwright@latest
    2. Run the default test (npx playwright test)
    3. Run npx playwright show-report (to view html report of test)
+
+## Issuse No.3
+   1. Run npm install express --save
+   2. Create "index.js" file 
+   3. Initialize express in tutorial 
+   4. Create a "docs" folder and "index.html"
+   5. Set path and create server function.
