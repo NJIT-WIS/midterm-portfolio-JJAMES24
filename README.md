@@ -8,4 +8,4 @@
 ## Isuse No.2(3)
    1. Run npm init playwright@latest
    2. Run the default test (npx playwright test)
-   3. Run npx playwright show-report (to view html report of test).
+   3. Run npx playwright show-report (to view html report of test)
