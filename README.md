@@ -16,3 +16,12 @@
    3. Initialize express in tutorial 
    4. Create a "docs" folder and "index.html"
    5. Set path and create server function.
+
+
+## Issue No.4
+   1. Open the figma file
+   2. Get the html components title, subtext, links and add to index.html
+   3. Make an images folder and add images from hero section and add to index.html
+
+
+
