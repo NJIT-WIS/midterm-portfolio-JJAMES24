@@ -320,6 +320,45 @@ a{
 
 }
 
+#aboutpage .apage-fill-button{
+
+    display: inline;
+    position: relative;
+    left: 180%;
+    margin-right: 20px;;
+    background-color: #007B86;
+    color: white;
+    padding: 15px 40px;
+    text-decoration: none;
+    border-radius: 50px 50px 50px 50px;
+}
+
+#aboutpage .apage-stroke-button{
+
+   
+    position: relative;
+    left: 185%;
+    outline-style: solid;
+    outline-color: #007B86;
+    outline-style: solid;
+    color: white;
+    padding: 15px 40px;
+    text-decoration: none;
+    border-radius: 50px 50px 50px 50px;
+   
+
+}
+
+.aboutpagetitle h1{
+margin-top: 90px;
+margin-bottom: 200px;
+text-align: center;
+font-size: 64px;
+letter-spacing: 9px;
+z-index: 2;
+
+}
+
 .long-fill-button{
     display: inline;
     width: 100%;
@@ -358,6 +397,7 @@ a{
     from {background-position:0 0;}
     to {background-position:-100px 5000px;}
 }
+
 
 .stars, .twinkling {
     position:absolute;

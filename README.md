@@ -42,7 +42,12 @@
  1. Aligning the elements using CSS
 
 ## Issue No.9
-   1.Styled all the buttons using CSS 
+   1.Styled all the buttons using CSS
+
+## Issue No.10
+
+ 1. Created about.html file in docs 
+ 2. Styled the page with already existing css classes as well as made a few more custom to the page 
 
 
 
