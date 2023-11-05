@@ -17,6 +17,7 @@ body{
     font-size:18px;
     position: relative;
     z-index: 2;
+
 }
 
 h1,
@@ -32,24 +33,243 @@ h3{
    font-size: 80px;
 }
 
-.aboutsection h2{
-    font-size:36px;
-}
-
-.projectsection h2{
-    font-size: 36px;
+.herosection {
+ 
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    background: transparent url(/docs/images/heroimg.png) no-repeat right;
+    background-size: contain;
+    background-size: 571px 475px;
+    height: 473px;
+    margin-bottom: 2rem;;
     
 }
 
-.projectsection h3{
-    font-size: 24px;
+.hero-text{
+    position: relative;
+    top :5rem;
+    width: 30rem;
+    height: 170rem;
+    align-items:center ;
 }
+
+.hero-text .sub-text{
+    top: 5rem;
+    width: 493px;
+    height: 83px;
+
+}
+
+.aboutsection{
+    background-image: url(/docs/images/aboutimg.png);
+    position: relative;
+    justify-content: flex-end;
+    text-align: right;
+    background-repeat: no-repeat;
+    height: calc(50vh - 3rem);
+    width: 25%;
+    background-size: contain;
+ 
+}
+
+.aboutsection h2{
+    
+    font-size:36px;
+    position: relative;
+    left: 160%;
+    margin-bottom: 25px;
+   
+}
+
+.about-text .sub-text{
+    position: relative;
+    left: 150%;
+    width: 50rem;
+    margin-left: 35%;
+    text-align: left;
+    margin-bottom: 100px;
+    
+}
+
+.about-text .long-fill-button{
+    position: relative;
+    left: 150%;
+
+}
+
+
+.projects-section{
+
+    background-image: url(/docs/images/projectsimg.png);
+    background-position:left;
+    justify-content: flex-end;
+    background-repeat: no-repeat;
+    height: calc(50vh - 5rem);
+    margin-bottom: 8rem;
+    margin-top: -15rem;
+    margin-left: auto;
+    background-size: 479px 284px;
+    height: 473px;
+   
+}
+
+
+
+.projects-section h3{
+
+    text-align: center; 
+    margin-top: 220PX;
+    margin-bottom: 20px;
+}
+
+.projects-text .title{
+
+    position: relative;
+    left:10rem;
+    text-align: center;
+    margin-top:20px;
+    margin-bottom: 20px;
+    letter-spacing: normal;
+    
+}
+
+.projects-text .desc{
+
+    position: relative;
+    left: 50%;
+    width: 50rem;
+    text-align: left;
+    margin-bottom: 20px;
+    
+}
+
+.projects-text a{
+
+    position: relative;
+    left:50%;
+    text-align: center;
+    padding-top: 15rem;
+    letter-spacing: normal;
+    
+}
+
+.button a{
+    display: inline-block;
+    position: relative;
+     margin-top: 10%;
+    left:40%;
+
+}
+
+
+
+.projects-section h2{
+text-align: center;
+letter-spacing: 5.32px;
+
+
+}
+.projects-section .projects-text .title h2{
+    letter-spacing: normal;
+}
+
+
+.projects-section.button .project-long-fill-button{
+    position: absolute;
+    left: 0%;
+    text-align: center;
+    padding-top: 100%;
+    margin-left: 50%;
+    align-items: center;
+    width:0%;
+   
+}
+
+.contact-section{
+
+    margin-top: -12rem;;
+}
+
+.contact-section h2{
+text-align: center;
+margin-left: -110px;
+margin-top: 15rem;
+margin-bottom: 45px;
+letter-spacing: 1px;
+
+
+}
+
+
+.name-form{
+
+    /* background-color: black; */
+    max-width: fit-content;
+    fill-opacity: 20%;
+
+}
+.message-form{
+  
+    display: inline;
+    margin-top: -150px;
+    position: absolute;
+    left:50%;
+    
+}
+
+
+input[type="text"]{
+
+    outline: none;
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 40px;
+    width:20rem;
+    border-radius: 50px 50px 50px 50px;
+    color: white;
+    
+
+}
+input[type="email"]{
+
+    outline: none;
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 6rem;
+    width:40rem;
+    border-radius: 50px 50px 50px 50px;
+    color: white;
+    
+
+}
+input[type="submit"]{
+    display: inline;
+    margin-top: 120px;
+    position: absolute;
+    left:50%;
+    
+    
+
+}
+
+footer{
+    text-align: center;
+    padding: 3px;
+    margin-top: 200px;
+    text-decoration: none;
+
+}
+footer a{
+    display: inline;
+    margin-right: 100px;
+}
+
 
 .main-content{
     display:block;
     position: relative;
     z-index: 2; 
- 
+    max-width: 1440px;
+    margin:auto;
 }
 
 a{
@@ -66,6 +286,12 @@ a{
     font-size: 16px;
 }
 
+.fill-button{
+
+    display: inline;
+    margin-right: 50px;;
+}
+
 .footer a {
 
     font-weight: 400;
@@ -75,7 +301,7 @@ a{
 
 @keyframes move-twink-back {
     from {background-position:0 0;}
-    to {background-position:-10000px 5000px;}
+    to {background-position:-100px 5000px;}
 }
 
 .stars, .twinkling {
@@ -85,7 +311,7 @@ a{
     right:0;
     bottom:0;
     width:100%;
-    height:100%;
+    height:auto;
     display:block;
   }
 
