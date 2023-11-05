@@ -6,24 +6,72 @@
 :root{
 
     --background-color: #0A1172;
-
+    --font-primary:"Playfair Display",Helvetica;
+    --primary-color:white;
 }
+
 
 body{
     background-color: var(--background-color);
+    color:var(--primary-color);
+    font-size:18px;
     position: relative;
     z-index: 2;
-    
+}
 
+h1,
+h2,
+h3{
+    font-family: var(--font-primary);
+    text-transform:uppercase;
+    font-weight: 700;
+}
+
+.herosection h1{
+
+   font-size: 80px;
+}
+
+.aboutsection h2{
+    font-size:36px;
+}
+
+.projectsection h2{
+    font-size: 36px;
+    
+}
+
+.projectsection h3{
+    font-size: 24px;
 }
 
 .main-content{
     display:block;
     position: relative;
-    z-index: 2;
-    
+    z-index: 2; 
+ 
 }
 
+a{
+   
+    color:var(--primary-color);
+    font-size: var(--link-font-size);
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.contact-section-label{
+
+    font-size: 16px;
+}
+
+.footer a {
+
+    font-weight: 400;
+    font-size: 16px;
+
+}
 
 @keyframes move-twink-back {
     from {background-position:0 0;}
@@ -51,3 +99,5 @@ body{
     z-index:1;
     animation:move-twink-back 200s linear infinite;
   }
+
+  
