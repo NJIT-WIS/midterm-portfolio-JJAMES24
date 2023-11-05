@@ -24,4 +24,13 @@
    3. Make an images folder and add images from hero section and add to index.html
 
 
+## Issue No.5
+   1. Repeat steps in issue no.4 for rest of landing page 
+
+## Issue No.6
+   1. Create the css file 
+   2. Link the css file 
+   3. Set background and follow tutorial for adding css animation
+s
+
 
