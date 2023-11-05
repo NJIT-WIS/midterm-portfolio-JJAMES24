@@ -37,6 +37,12 @@
    1. Link font from google fonts 
    2. go through figma file and apply necessary font changes (color,size,weight)
 
-   
+
+## Issue No.8 
+ 1. Aligning the elements using CSS
+
+## Issue No.9
+   1.Styled all the buttons using CSS 
+
 
 
