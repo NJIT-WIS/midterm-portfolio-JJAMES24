@@ -2,87 +2,95 @@
 <head>
     <meta charset="UTF-8">
     <title>Jarod's Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css"> <!--Links the main css file for styles-->
 </head>
 <body>
+    <!--Animated CSS Background-->
+        <div class="stars"></div>
+        <div class="twinkling"></div> 
+    <!--End of Backround-->
     <!--Hero Section-->
-    <section id="hero" class="herosection">
-        <div class ="hero-text">
-            <h1>Software Developer</h1>
-            <p class="sub-text">Keen to apply my programming skils to develop software solutions that drive business value and improve customer experiences.</p>
-            <a href="#" class=fill-button">My Projects</a>
-            <a href="#" class="stroke-button">Resume</a>
-            <div class="hero-image">
-                <img class="hero" src="images/heroimg.png">
+    <div class="main-content">
+        <section id="hero" class="herosection">
+            <div class ="hero-text">
+                <h1>Software Developer</h1>
+                <p class="sub-text">Keen to apply my programming skils to develop software solutions that drive business value and improve customer experiences.</p>
+                <a href="#" class=fill-button">My Projects</a>
+                <a href="#" class="stroke-button">Resume</a>
+                <div class="hero-image">
+                    <img class="hero" src="images/heroimg.png">
+                </div>
             </div>
-        </div>
-    </section>
-    <!--End of Hero Section-->
-    <!--About Section-->
-    <section id="about" class="aboutsection">
-        <div class="about-text">
-            <h2>What do I do?</h2>
-            <p>"An adept junior software developer skilled in crafting elegant, innovative solutions that seamlessly blend creativity with precision, bringing digital dreams to life one line of code at a time."</p>
-            <a href="#" class="long-fill-button">About Me</a>
-            <div class="about-image">
-               <img class="about" src="images/aboutimg.jpg">  
+        </section>
+        <!--End of Hero Section-->
+        <!--About Section-->
+        <section id="about" class="aboutsection">
+            <div class="about-text">
+                <h2>What do I do?</h2>
+                <p>"An adept junior software developer skilled in crafting elegant, innovative solutions that seamlessly blend creativity with precision, bringing digital dreams to life one line of code at a time."</p>
+                <a href="#" class="long-fill-button">About Me</a>
+                <div class="about-image">
+                   <img class="about" src="images/aboutimg.jpg">  
+                </div>
             </div>
-        </div>
-    </section>
-    <!--End of About Section-->
-    <!--Project Section-->
-    <section id="projects" class="projects-section">
-        <div class="projects-text">
-            <h2>Projects Cards</h2>
-            <h1>Solutions I've Developed</h1>
-            <h2>Personal Portfolio</h2>
-            <p>"I independently designed and coded my personal portfolio website, showcasing my passion for web development and my ability to create visually engaging and functional digital experiences."</p>
-            <a href="#" class="fill-button">Details</a>
-            <a href="#" class="fill-button">GitHub</a>
-            <a href="#" class="long-fill-button">View My Projects</a>
-            
-            <div class="project-image"> 
-                <img class="project1" src="images/projectsimg.png">
+        </section>
+        <!--End of About Section-->
+        <!--Project Section-->
+        <section id="projects" class="projects-section">
+            <div class="projects-text">
+                <h2>Projects Cards</h2>
+                <h1>Solutions I've Developed</h1>
+                <h2>Personal Portfolio</h2>
+                <p>"I independently designed and coded my personal portfolio website, showcasing my passion for web development and my ability to create visually engaging and functional digital experiences."</p>
+                <a href="#" class="fill-button">Details</a>
+                <a href="#" class="fill-button">GitHub</a>
+                <a href="#" class="long-fill-button">View My Projects</a>
+                
+                <div class="project-image"> 
+                    <img class="project1" src="images/projectsimg.png">
+                </div>
             </div>
+        </section>
+        <!--End of Projects Section-->
+        <!--Contact Section-->
+        <section id="contact" class="contact-section">
+            <div class="contact-text">
+                <h2>Contact Me</h2>
+            </div>
+            <div class="contact-text-name">
+                <form class="name-form">
+                    <label class="contact-section-label" for="contact-name">Name</label>
+                    <br>
+                    <input type="text" id="contact-name">
+                    <br>
+                </form>
+            </div>
+            <div class="contact-text-email">
+                <form class="name-form">
+                    <label class="contact-section-label" for="contact-email">Email</label>
+                    <br>
+                    <input type="text" id="contact-email">
+                    <br>
+                </form>
+            </div>
+            <div class="contact-text-message">
+                <form class="message-form">
+                    <input type="email" placeholder="Your Message" required> 
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </section>
+        <!--End of Contact Section-->
+        <!--Footer-->
+       <footer>
+        <div class="footer">
+            <a href="#" class="footer-link">Resume</a>
+            <a href="#" class="footer-link">GitHub</a>
+            <a href="#" class="footer-link">LinkedIn </a>
         </div>
-    </section>
-    <!--End of Projects Section-->
-    <!--Contact Section-->
-    <section id="contact" class="contact-section">
-        <div class="contact-text">
-            <h2>Contact Me</h2>
-        </div>
-        <div class="contact-text-name">
-            <form class="name-form">
-                <label class="contact-section-label" for="contact-name">Name</label>
-                <br>
-                <input type="text" id="contact-name">
-                <br>
-            </form>
-        </div>
-        <div class="contact-text-email">
-            <form class="name-form">
-                <label class="contact-section-label" for="contact-email">Email</label>
-                <br>
-                <input type="text" id="contact-email">
-                <br>
-            </form>
-        </div>
-        <div class="contact-text-message">
-            <form class="message-form">
-                <input type="email" placeholder="Your Message" required> 
-                <input type="submit" value="Submit">
-            </form>
-        </div>
-    </section>
-    <!--End of Contact Section-->
-    <!--Footer-->
-   <footer>
-    <div class="footer">
-        <a href="#" class="footer-link">Resume</a>
-        <a href="#" class="footer-link">GitHub</a>
-        <a href="#" class="footer-link">LinkedIn </a>
+       </footer>
+       <!--End of footer-->
     </div>
-   </footer>
-   <!--End of footer-->
+   
 </body>
 </html>
