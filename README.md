@@ -31,6 +31,12 @@
    1. Create the css file 
    2. Link the css file 
    3. Set background and follow tutorial for adding css animation
-s
+
+
+## Issue No.7
+   1. Link font from google fonts 
+   2. go through figma file and apply necessary font changes (color,size,weight)
+
+   
 
 
