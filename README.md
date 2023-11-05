@@ -49,5 +49,9 @@
  1. Created about.html file in docs 
  2. Styled the page with already existing css classes as well as made a few more custom to the page 
 
+ ## ISsue No.11
+   1. Created projects.html file in docs 
+   2. Styled the page with already existing css classes as well as made a few more custom to the page 
+
 
 
