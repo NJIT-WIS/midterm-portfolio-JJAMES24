@@ -349,6 +349,40 @@ a{
 
 }
 
+#projectbuttons .ppage-fill-button{
+
+    display: inline;
+    margin-right: 1100px;;
+    background-color: #007B86;
+    color: white;
+    padding: 15px 40px;
+    text-decoration: none;
+    border-radius: 50px 50px 50px 50px;
+
+}
+
+#projecttitle h2{
+
+text-align: center;
+margin-bottom: 50px;
+}
+
+#projectbuttons .ppage1-fill-button{
+
+    display: inline;
+    background-color: #007B86;
+    color: white;
+    padding: 15px 40px;
+    text-decoration: none;
+    border-radius: 50px 50px 50px 50px;
+
+}
+
+#projectbuttons{
+
+    margin-top: 10px;
+}
+
 .aboutpagetitle h1{
 margin-top: 90px;
 margin-bottom: 200px;
@@ -359,6 +393,29 @@ z-index: 2;
 
 }
 
+.projectspagetitle h1{
+    margin-top: 90px;
+    margin-bottom: 200px;
+    text-align: center;
+    font-size: 80px;
+    letter-spacing: 9px;
+    z-index: 2;
+    
+    }
+
+#projectcards{
+
+    text-align: left;
+    padding: 3px;
+    background-color:#007B86;
+    color: white;
+    border-radius: 50px 50px 50px 50px;
+    padding: 70px;
+    margin-bottom: 130px;
+    
+
+
+}
 .long-fill-button{
     display: inline;
     width: 100%;
