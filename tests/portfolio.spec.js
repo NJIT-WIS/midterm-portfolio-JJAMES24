@@ -49,5 +49,10 @@ test('Resume Links', async ({ page }) => {
     
   });
 
+  test('Check Profile Image', async ({ page }) => {
+    await page.goto(portfolioURL);
+    await expect(page.locator('.aboutsection')).toBeVisible();
+  });
+
 
 
