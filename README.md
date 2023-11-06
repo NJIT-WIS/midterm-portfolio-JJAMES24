@@ -94,4 +94,8 @@
  ## Issue No.20
  1. Wrote playwright test for meta keywords
  2. HAd to add to head of file 
+
+ ## Issue No.21 
+ 1. Wrote playright test  for viewport
+ 2. addd meta tag in head of all html files 
  
