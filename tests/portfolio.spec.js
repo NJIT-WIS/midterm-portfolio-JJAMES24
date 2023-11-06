@@ -11,18 +11,27 @@ const expectedlinkedinlink ='https://www.linkedin.com/in/jarod-james-b41833232/'
 const expectedSubmitButtonText = 'Submit';
 
 
+
 //Test resume link on homepage.
-test('Resume Links', async ({ page }) => {
+test('Resume Links', async ({ page ,context }) => {
     // Replace with the URL of the webpage you want to test
     
     await page.goto(portfolioURL); 
   
     // Find the first link with the text "resume"
-    const resumeLink = await page.locator('text=resume').nth(0);
+    const resumeLink = await page.locator('text=resume'&&'a[target=_blank]').nth(0);
     await resumeLink.click(); 
-    const currentURL = page.url();
-    expect(currentURL).toBe(expectedresumelink);
-    
+    const [newPage] = await Promise.all([
+        page.waitForEvent('popup'),  // Wait for a new page to open
+          // Wait for the original page to navigate
+      ]);
+    const newPageURL =newPage.url();
+    // Check the URL of the new page
+      const newPageUrl = newPage.url();
+    // const currentURL = page.url();
+    expect(newPageURL).toBe(expectedresumelink);
+    
+ 
   });
 
   test('Github Links', async ({ page }) => {
