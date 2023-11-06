@@ -169,6 +169,10 @@ Photo of new design here - [here](/docs/images/updateaternavbarchange.png)
  1. Upadte about section on figma file and await review 
  2. See photo [here](/docs/images/figmaaboutmeupdate.png)
 
+ ## Issue No.39
+ 1. Updated about page 
+ 
+
 
 
  
