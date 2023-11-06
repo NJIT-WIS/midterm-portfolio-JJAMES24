@@ -142,6 +142,13 @@ test('Check Footer', async ({ page }) => {
   });
 
 
+  test('Check Hero Image', async ({ page }) => {
+    await page.goto(portfolioURL);
+    await expect(page.locator('.herosection')).toBeVisible();
+  });
+
+
+
 
 
   
