@@ -150,7 +150,11 @@
 
 
 ## Issue No.35
-1. 
+1. Look at Figma design and added nav bar items.
+2. Also added resume item for convience to the user 
+3. Updated Figma design to reflect change of adding resume
+Photo of new design here - [here](/docs/images/updateaternavbarchange.png)
+
  
 
  
