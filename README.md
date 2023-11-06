@@ -98,4 +98,9 @@
  ## Issue No.21 
  1. Wrote playright test  for viewport
  2. addd meta tag in head of all html files 
+
+ ## Issue No. 22
+ 1. Wrote playwright test to check for utf-8 meta tag 
+
+ 
  
