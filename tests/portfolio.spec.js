@@ -112,3 +112,10 @@ test('Check Footer', async ({ page }) => {
     const details = await page.locator('.desc').count();
     await expect(details).not.toBe('');
   });
+
+
+  test('Check Hero Section', async ({ page }) => {
+    await page.goto(portfolioURL);
+    expect(await page.locator('.hero-text h1').textContent()).not.toBe('');
+    expect(await page.locator('.hero-text .sub-text').textContent()).not.toBe('');
+  });
