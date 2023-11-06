@@ -127,3 +127,16 @@ test('Check Footer', async ({ page }) => {
     const footerLinkCount = await page.locator('.projectscards').count();
     expect(footerLinkCount).toBeGreaterThan(0);
   });
+
+  
+  test('Check Page Language', async ({ page }) => {
+    await page.goto(portfolioURL);
+    const langAttribute = await page.getAttribute('html', 'lang');
+    await expect(langAttribute).toBe('en');
+  });
+  
+
+
+
+
+  
