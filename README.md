@@ -138,7 +138,8 @@
  2. Updated the footer in Figma design as seen in the image below 
       Photo of new design here - [here](/docs/images/afterfooterchange.png)
 
-## ISsue No.32
+## ISsue No.33
+1. Added email text link to footer of all html file (index.html, about.html and project.html)
  
  
 
