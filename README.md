@@ -102,5 +102,13 @@
  ## Issue No. 22
  1. Wrote playwright test to check for utf-8 meta tag 
 
+ ## Issue No.23
+ 1. Wrote playwright test to check that page had a title
+
+ ## Issue No.24
+ 1. Wrote a playwright test to check form elements in contact form 
+
+ 
+
  
  

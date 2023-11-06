@@ -7,6 +7,8 @@ const portfolioURL='http://localhost:3000';
 const expectedresumelink = 'https://jjames24.github.io/classresume/';
 const expectedgithublink ='https://github.com/JJAMES24';
 const expectedlinkedinlink ='https://www.linkedin.com/in/jarod-james-b41833232/';
+const expectedSubmitButtonText = 'Submit';
+
 
 //Test resume link on homepage.
 test('Resume Links', async ({ page }) => {
@@ -87,3 +89,13 @@ test('check that UTF-8 meta tag is present', async ({ page }) => {
     const title = await page.title();
     await expect(title).not.toBe('');
   });
+
+  test('CheckForm Elements', async ({ page }) => {
+    await page.goto(portfolioURL);
+    const Form = await page.locator('.message-form');
+    const inputField = await Form.locator('input[type="email"]');
+    const submitButton = await Form.locator('input[type="submit"]');
+    expect(await inputField.isVisible()).toBe(true);
+    expect(await submitButton.isVisible()).toBe(true);
+    expect(await submitButton.getAttribute('value')).toBe(expectedSubmitButtonText);
+  });
