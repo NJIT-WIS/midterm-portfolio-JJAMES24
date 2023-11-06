@@ -54,5 +54,10 @@ test('Resume Links', async ({ page }) => {
     await expect(page.locator('.aboutsection')).toBeVisible();
   });
 
+  test('Check SEO Meta Description', async ({ page }) => {
+    await page.goto(portfolioURL);
+    const metaDescription = await page.getAttribute('meta[name="description"]', 'content');
+    await expect(metaDescription).not.toBe('');
+  });
 
 
