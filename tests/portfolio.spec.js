@@ -35,7 +35,6 @@ test('Resume Links', async ({ page }) => {
     
   });
 
-
   test('LinkedIn Links', async ({ page }) => {
     // Replace with the URL of the webpage you want to test
     
@@ -66,3 +65,9 @@ test('Resume Links', async ({ page }) => {
     await expect(metaKeywords).not.toBe('');
   });
 
+
+test('Check Responsive Meta Tag', async ({ page }) => {
+  await page.goto(portfolioURL);
+  const viewportMeta = await page.getAttribute('meta[name="viewport"]', 'content');
+  await expect(viewportMeta).toBe('width=device-width, initial-scale=1');
+});
