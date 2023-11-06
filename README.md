@@ -79,3 +79,10 @@
  ## Issue No.16
  1. Got linkedin profile and added it to the playwright test 
  2. added test throughout the website with buyttons that should lead to my linkedin profile
+
+ ## Issue No.17
+ 1. Link about me buttons to the about.html page
+
+ ## Issue No.18
+ 1. Wrote a playwright test in order to make sure employers and the users can see me when visiting my protfolio 
+ 
