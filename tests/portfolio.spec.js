@@ -5,6 +5,7 @@ const portfolioURL='http://localhost:3000';
 
 //Expected costants
 const expectedresumelink = 'https://jjames24.github.io/classresume/';
+const expectedgithublink ='https://github.com/JJAMES24';
 
 //Test resume link on homepage.
 test('Resume Links', async ({ page }) => {
@@ -17,6 +18,19 @@ test('Resume Links', async ({ page }) => {
     await resumeLink.click(); 
     const currentURL = page.url();
     expect(currentURL).toBe(expectedresumelink);
+    
+  });
+
+  test('Github Links', async ({ page }) => {
+    // Replace with the URL of the webpage you want to test
+    
+    await page.goto(portfolioURL);
+  
+    // Find the first link with the text "github"
+    const resumeLink = await page.locator('text=github').nth(0);
+    await resumeLink.click(); 
+    const currentURL = page.url();
+    expect(currentURL).toBe(expectedgithublink);
     
   });
 
