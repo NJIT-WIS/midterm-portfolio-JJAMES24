@@ -19,7 +19,7 @@ test('Resume Links', async ({ page ,context }) => {
     await page.goto(portfolioURL); 
   
     // Find the first link with the text "resume"
-    const resumeLink = await page.locator('text=resume'&&'a[target=_blank]').nth(0);
+    const resumeLink = await page.locator('text=resume').nth(0);
     await resumeLink.click(); 
     const [newPage] = await Promise.all([
         page.waitForEvent('popup'),  // Wait for a new page to open
@@ -27,9 +27,10 @@ test('Resume Links', async ({ page ,context }) => {
       ]);
     const newPageURL =newPage.url();
     // Check the URL of the new page
-      const newPageUrl = newPage.url();
+      
     // const currentURL = page.url();
     expect(newPageURL).toBe(expectedresumelink);
+    await newPage.close();
     
  
   });
@@ -40,10 +41,14 @@ test('Resume Links', async ({ page ,context }) => {
     await page.goto(portfolioURL);
   
     // Find the first link with the text "github"
-    const resumeLink = await page.locator('text=github').nth(0);
-    await resumeLink.click(); 
-    const currentURL = page.url();
-    expect(currentURL).toBe(expectedgithublink);
+    const githubLink = await page.locator('text=github').nth(0);
+    await githubLink.click(); 
+    const [newPage] = await Promise.all([
+        page.waitForEvent('popup'),  // Wait for a new page to open
+      ]);
+      const newPageURL =newPage.url();
+    expect(newPageURL).toBe(expectedgithublink);
+    await newPage.close();
     
   });
 
@@ -56,7 +61,13 @@ test('Resume Links', async ({ page ,context }) => {
     const resumeLink = await page.locator('text=linkedin').nth(0);
     await resumeLink.click(); 
     const currentURL = page.url();
-    expect(currentURL).toBe(expectedlinkedinlink);
+    const [newPage] = await Promise.all([
+        page.waitForEvent('popup'),  // Wait for a new page to open
+      ]);
+      const newPageURL =newPage.url();
+    expect(newPageURL).toBe(expectedlinkedinlink);
+    await newPage.close();
+ 
     
   });
 

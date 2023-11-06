@@ -161,6 +161,10 @@ Photo of new design here - [here](/docs/images/updateaternavbarchange.png)
 2. after commit realise playwright tested failed.
 3. Succesfully changes playwrighth scrpit to accomadte for change when checking for the link.
 
+## Issue No.37
+1. ent through index.html, about.html, project.html and made it so that when users click on github and linkedin it opens a new tab for them 
+2. Updated playwright test
+
 
 
 
