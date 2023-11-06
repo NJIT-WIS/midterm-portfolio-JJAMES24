@@ -69,3 +69,13 @@
 
 ## Issue No. 14
  1. Locate all the links that have to lead to project page and change them
+
+ 
+ ## Issue No.15
+ 1. Got github profile and added it to the playwright test 
+ 2. added test throughout the website with buyttons that should lead to my github profile
+
+ 
+ ## Issue No.16
+ 1. Got linkedin profile and added it to the playwright test 
+ 2. added test throughout the website with buyttons that should lead to my linkedin profile
