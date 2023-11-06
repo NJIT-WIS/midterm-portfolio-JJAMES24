@@ -114,6 +114,11 @@
  ## Issue No.26
  1. Wrote playwright test to check projects had details
 
+ ## Issue No. 27 
+ 1. Wrote playwright to test hero section is not empty
+
+ ## Issue 28
+
 
 
  
