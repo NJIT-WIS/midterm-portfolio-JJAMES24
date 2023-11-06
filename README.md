@@ -162,9 +162,12 @@ Photo of new design here - [here](/docs/images/updateaternavbarchange.png)
 3. Succesfully changes playwrighth scrpit to accomadte for change when checking for the link.
 
 ## Issue No.37
-1. ent through index.html, about.html, project.html and made it so that when users click on github and linkedin it opens a new tab for them 
+1. Went through index.html, about.html, project.html and made it so that when users click on github and linkedin it opens a new tab for them 
 2. Updated playwright test
 
+## Issue No.38
+ 1. Upadte about section on figma file and await review 
+ 2. See photo [here](/docs/images/figmaaboutmeupdate.png)
 
 
 
