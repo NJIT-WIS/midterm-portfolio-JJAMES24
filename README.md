@@ -158,6 +158,9 @@ Photo of new design here - [here](/docs/images/updateaternavbarchange.png)
 ## Issue No.36
 
 1. Went through index.html, about.html, project.html and made it so that when users click on resume it opens a new tab for them 
+2. after commit realise playwright tested failed.
+3. Succesfully changes playwrighth scrpit to accomadte for change when checking for the link.
+
 
 
 
