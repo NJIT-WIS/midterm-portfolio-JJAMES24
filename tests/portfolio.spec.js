@@ -81,3 +81,9 @@ test('check that UTF-8 meta tag is present', async ({ page }) => {
     //Assert: Check if the charset is set to UTF-8
     await expect(metaCharset).toBe('UTF-8');
   });
+
+  test('Check Page Title', async ({ page }) => {
+    await page.goto(portfolioURL);
+    const title = await page.title();
+    await expect(title).not.toBe('');
+  });
