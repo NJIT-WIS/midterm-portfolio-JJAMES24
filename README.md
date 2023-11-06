@@ -67,3 +67,5 @@
    5. Enusure that webserver is setup in playwright.config.js file otherwise will fail in github(almosted cried  cause I was confused)
    6. Update documentation and push to Github
 
+## Issue No. 14
+ 1. Locate all the links that have to lead to project page and change them
