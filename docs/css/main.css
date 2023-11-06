@@ -28,6 +28,33 @@ h3{
     font-weight: 700;
 }
 
+header{
+    display:flex;
+    align-items: center;
+    line-height: 4rem;
+    font-size: 1.25rem;
+    }
+
+.logo{
+
+
+    margin-right: auto;
+    
+    }
+
+.menu{
+
+    display: flex;
+    justify-content: flex-end;
+    flex-basis: 33.33%;
+    gap: 25px;
+
+}
+.menu-item{
+    font-size: 20px;
+    text-align: right;
+}
+
 .herosection h1{
 
    font-size: 80px;
