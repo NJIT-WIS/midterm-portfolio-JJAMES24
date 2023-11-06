@@ -114,11 +114,14 @@
  ## Issue No.26
  1. Wrote playwright test to check projects had details
 
- ## Issue No. 27 
+ ## Issue No.27 
  1. Wrote playwright to test hero section is not empty
 
- ## Issue 28
+ ## Issue No.28
+ 1. Create a variable to access projects page
+ 2. Wrote playwright test to ensure that more than 1 issue is displayed to the user/ employer
 
+ ## Issue No.29 
 
 
  

@@ -2,6 +2,7 @@
 const { test, expect } = require('@playwright/test');
 
 const portfolioURL='http://localhost:3000';
+const projectUrl='http://localhost:3000/projects.html'
 
 //Expected costants
 const expectedresumelink = 'https://jjames24.github.io/classresume/';
@@ -14,7 +15,7 @@ const expectedSubmitButtonText = 'Submit';
 test('Resume Links', async ({ page }) => {
     // Replace with the URL of the webpage you want to test
     
-    await page.goto(portfolioURL);
+    await page.goto(portfolioURL); 
   
     // Find the first link with the text "resume"
     const resumeLink = await page.locator('text=resume').nth(0);
@@ -118,4 +119,11 @@ test('Check Footer', async ({ page }) => {
     await page.goto(portfolioURL);
     expect(await page.locator('.hero-text h1').textContent()).not.toBe('');
     expect(await page.locator('.hero-text .sub-text').textContent()).not.toBe('');
+  });
+
+  
+  test('Check Issues', async ({ page }) => {
+    await page.goto(projectUrl);
+    const footerLinkCount = await page.locator('.projectscards').count();
+    expect(footerLinkCount).toBeGreaterThan(0);
   });
