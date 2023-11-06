@@ -111,6 +111,11 @@
  ## Issue No.25 
  1. Wrote playwright test to check footer quantity 
 
+ ## Issue No.26
+ 1. Wrote playwright test to check projects had details
+
+
+
  
 
  
