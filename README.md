@@ -155,6 +155,12 @@
 3. Updated Figma design to reflect change of adding resume
 Photo of new design here - [here](/docs/images/updateaternavbarchange.png)
 
+## Issue No.36
+
+1. Went through index.html, about.html, project.html and made it so that when users click on resume it opens a new tab for them 
+
+
+
  
 
  
