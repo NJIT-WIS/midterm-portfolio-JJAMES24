@@ -141,6 +141,16 @@
 ## ISsue No.33
 1. Added email text link to footer of all html file (index.html, about.html and project.html)
  
+## Issue No.34 
+ 1. Went to the figma file and screenshotted the previous design
+      Photo of old design here - [here](/docs/images/afterfooterchange.png)
+
+ 2. Updated by adding navbar  Figma design as seen in the image below 
+      Photo of new design here - [here](/docs/images/aternavbarchange.png)
+
+
+## Issue No.35
+1. 
  
 
  
