@@ -122,7 +122,13 @@
  2. Wrote playwright test to ensure that more than 1 issue is displayed to the user/ employer
 
  ## Issue No.29 
+ 1. Wrote a test to check to see if website supported the English language 
+ 2. Updated pages that didnt support the English language 
 
+ ## Issue No.30
+ 1. Wrote a test the check the project.html page to ensure that project card have a title
+
+ 
 
  
 

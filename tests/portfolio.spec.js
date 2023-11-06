@@ -135,6 +135,11 @@ test('Check Footer', async ({ page }) => {
     await expect(langAttribute).toBe('en');
   });
   
+  test('Check Template Title', async({page}) =>{
+    await page.goto(projectUrl);
+    const titles= await page.locator('.projectspagetitle h1');
+    expect(titles).not.toBe('');
+  });
 
 
 
