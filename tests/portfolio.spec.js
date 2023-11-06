@@ -7,12 +7,6 @@ const portfolioURL='http://localhost:3000';
 const expectedresumelink = 'https://jjames24.github.io/classresume/';
 
 
-
-test.beforeEach(async ({ page }) => {
-    await page.goto(portfolioURL);
-  });
-
-  
 //Test resume link on homepage.
 test('Resume Links', async ({ page }) => {
     // Replace with the URL of the webpage you want to test
