@@ -54,4 +54,16 @@
    2. Styled the page with already existing css classes as well as made a few more custom to the page 
 
 
+ ## Issue No. 12
+   1. Fo to repo and then enter settings, go to pages and then select the folder and host website 
+   2. Get link from github pages
+   3. Go through html files and enter link in approiate resume a tags 
+
+## Issue No.13
+   1. Went to ChatGPT to assist with coding playwright test 
+   2. Ensured that test pass after trail and error with ChatGPT suggested code
+   3. Made a constant for testing using link provided in issues 
+   4. Run playwright test Locally
+   5. Enusure that webserver is setup in playwright.config.js file otherwise will fail in github(almosted cried  cause I was confused)
+   6. Update documentation and push to Github
 
