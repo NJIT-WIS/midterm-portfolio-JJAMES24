@@ -85,4 +85,13 @@
 
  ## Issue No.18
  1. Wrote a playwright test in order to make sure employers and the users can see me when visiting my protfolio 
+
+ ## Issue No.19
+ 1. Wrote playwright test for meta description 
+ 2. Had to eneter line into the head of ffile 
+
+
+ ## Issue No.20
+ 1. Wrote playwright test for meta keywords
+ 2. HAd to add to head of file 
  

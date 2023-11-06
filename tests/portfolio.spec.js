@@ -60,4 +60,9 @@ test('Resume Links', async ({ page }) => {
     await expect(metaDescription).not.toBe('');
   });
 
+  test('Check SEO Meta Keywords', async ({ page }) => {
+    await page.goto(portfolioURL);
+    const metaKeywords = await page.getAttribute('meta[name="keywords"]', 'content');
+    await expect(metaKeywords).not.toBe('');
+  });
 
