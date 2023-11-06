@@ -105,3 +105,10 @@ test('Check Footer', async ({ page }) => {
     const footerLinkCount = await page.locator('.footer-link').count();
     expect(footerLinkCount).toBeGreaterThan(0);
   });
+
+
+  test('Check Details', async ({ page }) => {
+    await page.goto(portfolioURL);
+    const details = await page.locator('.desc').count();
+    await expect(details).not.toBe('');
+  });
