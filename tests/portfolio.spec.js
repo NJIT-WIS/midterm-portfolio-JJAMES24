@@ -99,3 +99,9 @@ test('check that UTF-8 meta tag is present', async ({ page }) => {
     expect(await submitButton.isVisible()).toBe(true);
     expect(await submitButton.getAttribute('value')).toBe(expectedSubmitButtonText);
   });
+
+test('Check Footer', async ({ page }) => {
+    await page.goto(portfolioURL);
+    const footerLinkCount = await page.locator('.footer-link').count();
+    expect(footerLinkCount).toBeGreaterThan(0);
+  });

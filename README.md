@@ -108,6 +108,9 @@
  ## Issue No.24
  1. Wrote a playwright test to check form elements in contact form 
 
+ ## Issue No.25 
+ 1. Wrote playwright test to check footer quantity 
+
  
 
  
