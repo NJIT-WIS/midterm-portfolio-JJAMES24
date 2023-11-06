@@ -128,8 +128,18 @@
  ## Issue No.30
  1. Wrote a test the check the project.html page to ensure that project card have a title
 
- 
+ ## Issue No.31
+ 1. Wrote playwright test to ensure that image in hero section is visible
 
+ ## Issue No.32
+ 1. Went to the figma file and screenshotted the previous design with old footer as seen below 
+      Photo of old design here - [here](/docs/images/beforefooterchange.png)
+
+ 2. Updated the footer in Figma design as seen in the image below 
+      Photo of new design here - [here](/docs/images/afterfooterchange.png)
+
+## ISsue No.32
+ 
  
 
  
