@@ -183,4 +183,14 @@ Photo of new design here - [here](/docs/images/updateaternavbarchange.png)
       4.Being able to add new elements and code it from Figma to code -[here](https://github.com/NJIT-WIS/midterm-portfolio-JJAMES24/issues/75)
 
       ## Issue No.42 
- 1 . Took my issues and made them clickable links that lead dirctly to the issuse in my githubrepo
+ 1 . Took my issues and made them clickable links that lead dirctly to the issuse in my githubrep
+
+ ## Issues No.43
+1. Wrote a playwright test to check links in project cards 
+
+ ## Issue No.44
+1. Added code in CSS to make webpages responsive 
+
+ # Issue No.45
+ 1. Ran the lighthouse test and pass with testing score 90% or better on all areas.
+   See test results here (![Alt text](<docs/images/test results.png>))
