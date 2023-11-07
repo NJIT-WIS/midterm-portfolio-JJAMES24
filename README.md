@@ -172,8 +172,16 @@ Photo of new design here - [here](/docs/images/updateaternavbarchange.png)
  ## Issue No.39
  1. Updated about page 
 
- ## Issue No.39
+ ## Issue No.40
  1. Wrote a playwright text to ensure that hero section title matched with Figma design 
+
+ ## Issuse No.41
+ 1. Went to my Github repo and decide that I want to display this five issues that  I worked on :
+      1.Adding an animated background without the use of CSS -[here](https://github.com/NJIT-WIS/midterm-portfolio-JJAMES24/issues/15)
+      2.Implementing a playwright test that gets the url from a new page and test its accurach -[here](https://github.com/NJIT-WIS/midterm-portfolio-JJAMES24/issues/77)
+      3.Implementing a playwright test for form validation - [here](https://github.com/NJIT-WIS/midterm-portfolio-JJAMES24/issues/53)
+      4.Being able to add new elements and code it from Figma to code -[here](https://github.com/NJIT-WIS/midterm-portfolio-JJAMES24/issues/53)
+
  
   
  
