@@ -200,4 +200,11 @@ Photo of new design here - [here](/docs/images/updateaternavbarchange.png)
 
    ![Figma Design](<Midterm Checkpoint 1.png>)
 
+
+## Issue No.47
+
+1. Followed instructions to go live and [here](https://njit-wis.github.io/midterm-portfolio-JJAMES24/) is the link .
+
+
+
    
