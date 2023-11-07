@@ -185,5 +185,15 @@ test('Check Footer', async ({ page }) => {
   });
 
 
+test('Check Issues on Project', async ({ page }) => {
+
+    await page.goto(projectUrl);
+    const IssuesLink = await page.locator('a').nth(0);
+    await IssuesLink.click(); 
+    const currentURL = page.url();
+    expect(IssuesLink).not.toBe(currentURL);
+  });
+
+
 
   
