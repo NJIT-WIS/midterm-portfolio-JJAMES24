@@ -8,6 +8,7 @@ const projectUrl='http://localhost:3000/projects.html'
 const expectedresumelink = 'https://jjames24.github.io/classresume/';
 const expectedgithublink ='https://github.com/JJAMES24';
 const expectedlinkedinlink ='https://www.linkedin.com/in/jarod-james-b41833232/';
+const expectedlivedemo='https://njit-wis.github.io/midterm-portfolio-JJAMES24/';
 const expectedFontSize = '80px';
 const expectedSubmitButtonText = 'Submit';
 
@@ -195,5 +196,25 @@ test('Check Issues on Project', async ({ page }) => {
   });
 
 
-
+  test('Live Demo Link', async ({ page ,context }) => {
+    // Replace with the URL of the webpage you want to test
+    
+    await page.goto(projectUrl); 
+  
+    // Find the first link with the text "resume"
+    const resumeLink = await page.locator('text=live demo').nth(0);
+    await resumeLink.click(); 
+    const [newPage] = await Promise.all([
+        page.waitForEvent('popup'),  // Wait for a new page to open
+          // Wait for the original page to navigate
+      ]);
+    const newPageURL =newPage.url();
+    // Check the URL of the new page
+      
+    // const currentURL = page.url();
+    expect(newPageURL).toBe(expectedlivedemo);
+    await newPage.close();
+    
+ 
+  });
   
