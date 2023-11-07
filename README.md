@@ -194,3 +194,10 @@ Photo of new design here - [here](/docs/images/updateaternavbarchange.png)
  # Issue No.45
  1. Ran the lighthouse test and pass with testing score 90% or better on all areas.
    See test results here (![Alt text](<docs/images/test results.png>))
+
+   ## Issue No.46
+   1. Extracted a full size figma design from [here](https://www.figma.com/file/mE5PhMZRyXL1oyeAEcRMPl/Midterm-Checkpoint-1?type=design&node-id=0%3A1&mode=design&t=Tnaq2BHFZ5c4lOXs-1)
+
+   ![Figma Design](<Midterm Checkpoint 1.png>)
+
+   
