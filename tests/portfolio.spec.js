@@ -8,6 +8,7 @@ const projectUrl='http://localhost:3000/projects.html'
 const expectedresumelink = 'https://jjames24.github.io/classresume/';
 const expectedgithublink ='https://github.com/JJAMES24';
 const expectedlinkedinlink ='https://www.linkedin.com/in/jarod-james-b41833232/';
+const expectedFontSize = '80px';
 const expectedSubmitButtonText = 'Submit';
 
 
@@ -167,7 +168,21 @@ test('Check Footer', async ({ page }) => {
     await expect(page.locator('.herosection')).toBeVisible();
   });
 
-
+  test('Check Hero Font Size', async ({ page }) => {
+    // Navigate to the webpage you want to test
+    await page.goto(portfolioURL);
+  
+    // Define the CSS class you want to check
+    const targetClass = '.hero-text h1';
+  
+    // Get the font size of the element with the specified class
+    const fontSize = await page.$eval(targetClass, (element) => {
+      const computedStyle = getComputedStyle(element);
+      return computedStyle.fontSize;
+    });
+    // Use Playwright Test's expect to check if the font size matches the expected font size
+    expect(fontSize).toBe(expectedFontSize);
+  });
 
 
 
