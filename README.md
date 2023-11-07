@@ -171,6 +171,11 @@ Photo of new design here - [here](/docs/images/updateaternavbarchange.png)
 
  ## Issue No.39
  1. Updated about page 
+
+ ## Issue No.39
+ 1. Wrote a playwright text to ensure that hero section title matched with Figma design 
+ 
+  
  
 
 
