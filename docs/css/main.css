@@ -433,6 +433,7 @@ z-index: 2;
 #projectcards{
 
     text-align: left;
+    align-items: center;
     padding: 3px;
     background-color:#007B86;
     color: white;
@@ -443,6 +444,8 @@ z-index: 2;
 
 
 }
+
+
 .long-fill-button{
     display: inline;
     width: 100%;
