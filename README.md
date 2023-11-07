@@ -1,3 +1,10 @@
+# Submission requirements 
+1. Link for [live](https://njit-wis.github.io/midterm-portfolio-JJAMES24/) website. https://njit-wis.github.io/midterm-portfolio-JJAMES24/
+2. Full exported image of [Figma](https://www.figma.com/file/mE5PhMZRyXL1oyeAEcRMPl/Midterm-Checkpoint-1?type=design&node-id=0%3A1&mode=design&t=Tnaq2BHFZ5c4lOXs-1) design.
+
+![Figma Design](<Midterm Checkpoint 1.png>)
+
+
 # My Project Documentation
 
 ## Issuse No.1
@@ -212,4 +219,10 @@ Photo of new design here - [here](/docs/images/updateaternavbarchange.png)
 
 1 Took link from github pages and added it to live demo button in projects.html page
 
-   
+## Issue No.49
+1. Wrote a playwright test to test that the live demo button goes to the github pages link 
+
+
+## Issue No.50
+
+1. Verified that I have all 50 issues and 20 playwright and leaving and image of my Figma file to the top as well as a link to the live webpage 
