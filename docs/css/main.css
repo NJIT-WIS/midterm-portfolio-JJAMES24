@@ -480,6 +480,21 @@ z-index: 2;
 
 }
 
+/* For screens smaller than 600px */
+@media (max-width: 600px) {
+    body {
+        width: 100%;
+        float: none;
+    }
+}
+
+@media (min-width: 768px) {
+    body {
+        width: 100%;
+        float: none;
+    }
+}
+
 @keyframes move-twink-back {
     from {background-position:0 0;}
     to {background-position:-100px 5000px;}
